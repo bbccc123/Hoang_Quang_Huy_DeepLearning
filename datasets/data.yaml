@@ -1,0 +1,11 @@
+train: ./320x320\train\image
+val: ./320x320/valid/images
+test: ./320x320/test/images
+
+nc: 3
+names:
+  0: head
+  1: helmet
+  2: person
+
+download: https://ultralytics.com/assets/coco128.zip
